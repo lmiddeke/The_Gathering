@@ -1,0 +1,95 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+button {
+  border-radius: 11%;
+}
+
+h2 {
+  display: inline;
+}
+
+#top {
+  border: 2px dashed black;
+  border-radius: 3%;
+  padding: 2px;
+  text-align: start;
+}
+
+#mana {
+  display: inline;
+}
+
+#type {
+  padding-top: 30px;
+  /* border: 2px solid black; */
+  border-radius: 3%;
+  padding: 2px;
+  text-align: start;
+}
+
+p {
+  padding-top: 20px;
+  /* border: 2px solid black; */
+  border-radius: 2%;
+  padding: 2px;
+  text-align: start;
+}
+
+input {
+  margin-bottom: 20px;
+  border-radius: 3%;
+}
+
+body {
+    background: no-repeat url('1.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+#card {
+    padding-top: 40px;
+    border: black 15px solid;
+    height: 670px;
+    width: 470px;
+    display: block;
+    box-shadow: 1px 1px 9px #000;
+    border-radius: 7%;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #ede6cf;
+}
+
+#power,#toughness {
+  display: inline;
+}
+
+#level {
+  /* border: 2px solid black; */
+  border-radius: 2%;
+  text-align: end;
+  width: 31px;
+  float: right;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+/*make the design look like a card with the card info inside with the card image inside*/ 
