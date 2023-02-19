@@ -1,4 +1,4 @@
-# Magic2.0
+# The Gathering
 #### Magic the Gathering card finder, using the Magic API.
 
 To use this card selector:
